@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radityaputranto/bootstrap5-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radityaputranto/bootstrap5-tutorial/issues"
+  },
+  "homepage": "https://github.com/radityaputranto/bootstrap5-tutorial#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.34.1"
+  }
+}
