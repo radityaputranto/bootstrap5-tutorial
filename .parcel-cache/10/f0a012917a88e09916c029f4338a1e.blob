@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="de8deb403ee3957b33ea533bbc89709d">
+    <!-- parcel allow add scss file in html -->
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-primary" href="#">SomeCompany</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid custombg mt-5">
+      <div class="container pt-5 pb-5">
+        <h1 class="fw-bold">Visit Our Building</h1>
+        <p class="subhead fs-4 mb-0 text-white-50">
+          Our builidng is so stylish, you'll want to live there.
+        </p>
+      </div>
+    </div>
+
+    <div class="container p-3">
+      <div class="row mt-2">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="690a59c0c4428d869f0f4af316a5ed6a" class="card-img-top" alt="">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="0edf1d802e89ea4cf760b5de7be914a1" class="card-img-top" alt="">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="87493888bb8e0d74d6c64e6c91078c86" class="card-img-top" alt="">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h2 class="mb-5">Join our mailing list:</h2>
+        </div>
+        <div class="col-sm">
+          <label for="" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleINputEmail" aria-describedby="emailHelp">
+          <div class="form-text">
+            we'll never share your email with anyone else.
+          </div>
+        </div>
+
+        <div class="col-12 col-md-2">
+          <button type="submit" class="btn btn-primary btn-submit">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="e7b5ff0c3e32451012cab9f1d6067a93"></script>
+  </body>
+</html>
